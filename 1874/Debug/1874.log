@@ -1,0 +1,8 @@
+﻿  1874.cpp
+f:\온라인져지-outersky\1874\1874.cpp(43): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+f:\온라인져지-outersky\1874\1874.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+f:\온라인져지-outersky\1874\1874.cpp(18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
+  1874.vcxproj -> F:\온라인져지-outersky\1874\Debug\1874.exe
+  1874.vcxproj -> F:\온라인져지-outersky\1874\Debug\1874.pdb (Full PDB)

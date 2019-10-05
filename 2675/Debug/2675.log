@@ -1,0 +1,4 @@
+﻿  main.cpp
+f:\온라인져지-outersky\2675\main.cpp(13): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  2675.vcxproj -> F:\온라인져지-outersky\2675\Debug\2675.exe
+  2675.vcxproj -> F:\온라인져지-outersky\2675\Debug\2675.pdb (Full PDB)
