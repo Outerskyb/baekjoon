@@ -1,0 +1,4 @@
+﻿  main.cpp
+E:\projects\PS\온라인져지-outersky\7226\main.cpp(30,39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+E:\projects\PS\온라인져지-outersky\7226\main.cpp(37,39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  7226.vcxproj -> E:\projects\PS\온라인져지-outersky\7226\Debug\7226.exe
