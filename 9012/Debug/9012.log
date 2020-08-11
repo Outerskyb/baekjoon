@@ -1,6 +1,0 @@
-﻿  9012.cpp
-f:\온라인져지-outersky\9012\9012.cpp(14): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-f:\온라인져지-outersky\9012\9012.cpp(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 'scanf' 선언을 참조하십시오.
-  9012.vcxproj -> F:\온라인져지-outersky\9012\Debug\9012.exe
-  9012.vcxproj -> F:\온라인져지-outersky\9012\Debug\9012.pdb (Full PDB)

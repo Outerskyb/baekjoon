@@ -1,4 +1,0 @@
-﻿  main.cpp
-E:\projects\PS\온라인져지-outersky\1725\main.cpp(44,1): warning C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message :  'scanf' 선언을 참조하십시오.
-  1725.vcxproj -> E:\projects\PS\온라인져지-outersky\1725\Debug\1725.exe

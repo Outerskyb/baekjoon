@@ -1,6 +1,0 @@
-﻿  main.cpp
-main.cpp(44): warning C4477: 'printf' : 서식 문자열 '%lf'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int'입니다.
-  코드를 생성하고 있습니다.
-  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  코드를 생성했습니다.
-  9240.vcxproj -> F:\온라인져지-outersky\9240\Release\9240.exe

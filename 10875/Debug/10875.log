@@ -1,7 +1,0 @@
-﻿  main.cpp
-f:\온라인져지-outersky\10875\main.cpp(52): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-f:\온라인져지-outersky\10875\main.cpp(31): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
-f:\온라인져지-outersky\10875\main.cpp(34): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
-  10875.vcxproj -> F:\온라인져지-outersky\10875\Debug\10875.exe

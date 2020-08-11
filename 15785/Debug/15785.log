@@ -1,8 +1,0 @@
-﻿  main.cpp
-f:\온라인져지-outersky\15785\main.cpp(17): warning C4305: '초기화 중': 'int'에서 'float'(으)로 잘립니다.
-f:\온라인져지-outersky\15785\main.cpp(19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-f:\온라인져지-outersky\15785\main.cpp(8): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
-f:\온라인져지-outersky\15785\main.cpp(10): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: 'scanf' 선언을 참조하십시오.
-  15785.vcxproj -> F:\온라인져지-outersky\15785\Debug\15785.exe

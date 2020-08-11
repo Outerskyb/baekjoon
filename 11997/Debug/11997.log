@@ -1,6 +1,0 @@
-﻿  main.cpp
-E:\projects\PS\온라인져지-outersky\11997\main.cpp(48,23): warning C4018:  '<=': signed 또는 unsigned가 일치하지 않습니다.
-E:\projects\PS\온라인져지-outersky\11997\main.cpp(49,27): warning C4018:  '<=': signed 또는 unsigned가 일치하지 않습니다.
-E:\projects\PS\온라인져지-outersky\11997\main.cpp(55,23): warning C4018:  '<=': signed 또는 unsigned가 일치하지 않습니다.
-E:\projects\PS\온라인져지-outersky\11997\main.cpp(56,27): warning C4018:  '<=': signed 또는 unsigned가 일치하지 않습니다.
-  11997.vcxproj -> E:\projects\PS\온라인져지-outersky\11997\Debug\11997.exe
