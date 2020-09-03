@@ -1,22 +1,25 @@
-#include<iostream>
+#include <iostream>
+#include <vector>
+#include <cinttypes>
 
 using namespace std;
 
-long long int fibo[80] = { 1,1 };
- 
-void get_fibo() {
-	for (int i = 2; i < 80; i++) {
-		fibo[i] = fibo[i - 2] + fibo[i - 1];
+int main() 
+{
+	int n;
+	cin >> n;
+	vector<uint64_t> f(81);
+	f[0] = 0, f[1] = 1;
+	for (int i = 2; i <= 80; i++) {
+		f[i] = f[i - 1] + f[i - 2];
 	}
-	return;
-}
- 
-int main() {
-	int N;
 
-	get_fibo();
-
-	scanf("%d", &N);
-	printf("%lld ", fibo[N+1]*2);
-	
+	if (n == 1)
+		cout << 4;
+	else if (n == 2)
+		cout << 6;
+	else if (n == 3)
+		cout << 10;
+	else
+		cout << f[n] * 3 + f[n - 1] * 2 + f[n - 2] * 2 + f[n - 3];
 }
