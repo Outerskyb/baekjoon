@@ -8,28 +8,21 @@ int coin[101];
 int dp[10001];
 int n, k;
 
-int func(int k)
-{
-    if (k <= 0)
-        return 0;
-
-    if (dp[k] != -1)
-        return dp[k];
-
-    for(int i = 0 ; i < n;i++)
-        dp[k] = max(dp[k],func(k-coin[i])+1);
-
-    return dp[k];
-}
-
 int main()
 {
-    memset(dp,-1,sizeof dp);
+    memset(dp,0,sizeof dp);
+    dp[0] = 1;
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n >> k;
     for(int i = 0 ; i < n ; i++){
         cin >> coin[i];
     }
-    cout << func(k);
+    for(int i = 0 ; i < n ; i++){
+        for(int j = 1 ; j<= k;j++){
+            if(j-coin[i]>=0)
+                dp[j] += dp[j-coin[i]];
+        }
+    }
+    cout << dp[k];
 }
