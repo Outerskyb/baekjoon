@@ -4,8 +4,10 @@
 using namespace std;
 
 int s, N, K, r1, r2, c1, c2;
-int color(int r, int y, int x, int yb, int xb)
+int color(int r, int y, int x)
 {
+    if (y > r || x > r) return 0;
+    int yb = 0, xb = 0;
     while (r > 1) {
         if (y >= r * (N - K) / 2 / N + yb && y < r * (N + K) / 2 / N + yb
             && x >= r * (N - K) / 2 / N + xb && x < r * (N + K) / 2 / N + xb) {
@@ -26,7 +28,7 @@ int main()
     
     for (int i = r1; i <= r2; i++) {
         for (int j = c1; j <= c2; j++) {
-            cout << color(r, i, j, 0, 0);
+            cout << (color(r, i, j)?"1":"0");
         }
         cout << '\n';
     }
