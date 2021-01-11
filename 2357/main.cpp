@@ -3,9 +3,14 @@
 #include <cstdio>
 #include <cstring>
 
-#define max(a,b) (((a)>(b))?(a):(b))
-#define min(a,b) (((a)<(b))?(a):(b))
-
+int max(int a, int b) {
+    if (a > b) return a;
+    return b;
+}
+int min(int a, int b) {
+    if (a < b) return a;
+    return b;
+}
 using namespace std;
 
 int maxtree[262144];
@@ -14,7 +19,7 @@ int mintree[262144];
 int s = 1;
 
 void construct() {
-    for (int i = s; i >= 1; i--) {
+    for (int i = s-1; i >= 1; i--) {
         maxtree[i] = max(maxtree[i * 2], maxtree[i * 2 + 1]);
         mintree[i] = min(mintree[i * 2], mintree[i * 2 + 1]);
     }
@@ -45,7 +50,7 @@ int get_max(int l, int r, int i, int nl, int nr) {
 }
 
 int get_min(int l, int r, int i, int nl, int nr) {
-    if (nl > r || nr < l) return 1000000005;   
+    if (nl > r || nr < l) return 1'000'000'005;   
     if (nl >= l && nr <= r) return mintree[i];
     int mid = (nl + nr) / 2;
     return min(get_min(l, r, i * 2, nl, mid), get_min(l, r, i * 2 + 1, mid + 1, nr));
