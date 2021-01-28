@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+	int N;
+	cin >> N;
+	while (N--) {
+		string str;
+		cin >> str;
+
+		
+	}
+}
