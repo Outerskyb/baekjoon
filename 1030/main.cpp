@@ -1,10 +1,11 @@
 #include <iostream>
 #include <cmath>
+#include <cinttypes>
 
 using namespace std;
 
-int s, N, K, r1, r2, c1, c2;
-int color(int r, int y, int x)
+int64_t s, N, K, r1, r2, c1, c2;
+int color(int64_t r, int64_t y, int64_t x)
 {
     if (y > r || x > r) return 0;
     int yb = 0, xb = 0;
